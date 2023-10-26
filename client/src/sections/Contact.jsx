@@ -25,7 +25,7 @@ const Contact = ({ sectionRef }) => {
 
     try {
       const response = await axios.post(
-        "https://ounadi.onrender.com/send_mail",
+        "https://ouunadi.onrender.com/send_mail",
         formData
       );
       console.log(response.data.message);
