@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import  { useContext, useEffect } from "react";
 import Button from "./Button";
 import ScrollReveal from "scrollreveal";
 import ScrollBottom from "./ScrollBottom";

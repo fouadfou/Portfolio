@@ -1,6 +1,4 @@
-import React, { useEffect, useRef } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import  { useEffect} from "react";
 import img from "../assets/images/77108000_133044601466386_5568512050876907520_n.jpg";
 import Skills from "../components/Skills";
 
@@ -66,7 +64,7 @@ const About = ({ sectionRef }) => {
           </div>
 
           <div className=" overflow-hidden bg-white flex flex-col justify-between flex-1  rounded-md p-8">
-            <h2 className="text-3xl mb-2">
+            <h2 className="text-3xl mb-3">
               <b>Hi I am</b> <b className="text-[#FFBF00] ">Fouad Ounadi</b>{" "}
               <b>, Web Developer</b> <br />
             </h2>

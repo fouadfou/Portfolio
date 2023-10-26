@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, createContext } from "react";
+import  { useRef, useEffect, createContext } from "react";
 
 import NavBar from "./components/NavBar";
 import Home from "./sections/Home";
@@ -28,12 +28,8 @@ function App() {
   };
   
   useEffect(() => {
-    window.onload = function () {
-      window.scrollTo(0, 0);
-    };
-
-  }, [scrollY])
-  
+    window.history.scrollRestoration = 'manual'
+  }, []);
 
 
   useEffect(() => {
