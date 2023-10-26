@@ -120,10 +120,8 @@ const About = ({ sectionRef }) => {
                 </li>
               </ul>
 
-              <button className="bg-[#FFBF00] font-bold w-fit py-1 px-4 text-sm rounded-md h-[2rem]">
-              <a href={resume} target="_blank" rel="noreferrer">Check my CV</a>
-              </button>
-                
+              
+              <a className="bg-[#FFBF00] font-bold w-fit py-1 px-4 text-sm rounded-md h-[2rem]" href={resume} target="_blank" rel="noreferrer">Check my CV</a>
               
             </div>
           </div>
