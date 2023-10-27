@@ -36,21 +36,19 @@ const HeaderContainer = () => {
   }, []);
 
   return (
-    <div className=" absolute flex w-screen h-[calc(100vh)] top-0" style={bg}>
-      <div className="flex items-center flex-1 overflow-x-hidden justify-center md:justify-normal">
-        <div className="sub-container w-[45%] min-w-[370px] flex flex-col items-center md:items-baseline 
-          gap-[2rem] mx-[7%] mt-[1.5rem] mb-[3.5rem] md:mb-[1.2rem] ">
-          <h1 className="relative  font-Ginerin text-[5.4rem] md:text-[6.4rem] text-white select-none">
+    <div className="container absolute  flex items-center justify-center md:justify-normal min-w-full  h-screen top-0" style={bg}>
+      
+        <div className="sub-container  z-40 w-[80%] md:w-[45%] min-w-[250px]  flex flex-col items-center md:items-baseline 
+          gap-12 mx-[7%] mt-[1.5rem] mb-[3.5rem] md:mb-[1.2rem] ">
+          <h1 className="relative  font-Ginerin text-[4rem] md:text-[5.8rem] text-white select-none">
             Fouad
             <sub
-              className="absolute  top-[6rem] left-[5.3rem]  md:top-[7rem] md:left-[6.4rem] font-Wind font-bold
-                        text-[#FFBF00] text-[6.4rem]  md:text-[7.4rem]"
-              style={{ textShadow: "0 0 1.5px white" }}
-            >
+              className="absolute  top-[4.6rem] left-[3.8rem]  md:top-[6.5rem] md:left-[5.65rem] font-Wind font-bold
+                        text-[#FFBF00] text-[5rem]  md:text-[7.1rem]">
               Ounadi
             </sub>
           </h1>
-          <p className="text-[#e7e7e789] flex-wrap text-center md:text-left select-none">
+          <p className="text-[#e7e7e789]  flex-wrap text-center md:text-left select-none">
           Specializing in web development, I'm committed to creating high-performance websites 
           that prioritize a seamless UI/UX design. My expertise lies in merging technical excellence with captivating 
           user experiences to deliver top-tier websites.
@@ -72,7 +70,7 @@ const HeaderContainer = () => {
             <Button onClick={() => scrollToSection(contact)} bold={"font-bold"} background={"bg-white"}  value={"Contact Me"} />
           </div>
         </div>
-      </div>
+      
 
       <ScrollBottom />
     </div>

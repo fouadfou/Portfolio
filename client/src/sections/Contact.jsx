@@ -126,7 +126,7 @@ const Contact = ({ sectionRef }) => {
         </ul>
       </div>
 
-      <div className="fade-right h-fit flex-1 w-full md:min-w-[410px] flex flex-col pb-12  justify-center py-10 px-12 gap-6   rounded-xl ">
+      <div className="fade-right h-fit flex-1 w-full md:min-w-[410px] flex flex-col   justify-center  pb-16 lg:pb-0 px-12 gap-6   rounded-xl ">
         <h2 className="text-[22px] font-bold">Send me a message 🚀</h2>
 
         <form className="w-full flex flex-col gap-4" onSubmit={handleSubmit}>

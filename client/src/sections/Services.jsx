@@ -20,8 +20,8 @@ const Services = ({ sectionRef }) => {
 
       <h1 className="zoom-out z-40 text-white text-center text-3xl  ">Services</h1>
 
-      <span className="fade-left absolute  bg-[#FFBF00] h-[1px] w-[21%] md:w-[35%] top-[6.2rem] left-[6.8%] md:left-[6.4%]"></span>
-      <span className="fade-right absolute bg-white h-[1px] w-[21%] md:w-[35%] top-[6.2rem] right-[6.8%] md:right-[6.4%] "></span>
+      <span className="fade-left absolute  bg-[#FFBF00] h-[1px] left-[7%] w-[17%]  lg:w-[34%] top-[6.2rem] md:left-[5.8%]  md:w-[29%]"></span>
+      <span className="fade-right absolute bg-white h-[1px] right-[7%] w-[17%] lg:w-[34%] top-[6.2rem] md:right-[5.8%]  md:w-[29%] "></span>
 
       {/* <div className='z-10 absolute bottom-0 place-self-start h-[25rem] w-full ' style={headerStyles} /> */}
       <div className="zoom-in  z-40 h-auto bg-background-gray w-[88%] rounded-lg shadow-2xl p-2  gap-2 ">

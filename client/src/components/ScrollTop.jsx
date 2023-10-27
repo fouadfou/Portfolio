@@ -46,7 +46,7 @@ const ScrollTop = () => {
           boxShadow:
             "rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px",
         }}
-        className={`scrollTop opacity-0 flex duration-300  z-40 bg-[#FFBF00] h-[40px] w-[40px] fixed  items-center justify-center bottom-3 right-3 rounded-xl `}
+        className={`hidden scrollTop opacity-0 md:flex duration-300  z-40 bg-[#FFBF00] h-[40px] w-[40px] fixed  items-center justify-center bottom-3 right-3 rounded-xl `}
         onClick={scrollToTop}
       >
         <i className="fa fa-4x fa-angle-up  text-xl text-white"></i>

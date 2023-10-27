@@ -46,12 +46,12 @@ const About = ({ sectionRef }) => {
           About Me
         </h1>
 
-        <span className="fade-left absolute  bg-[#FFBF00] h-[1px] w-[21%] md:w-[35%] top-[6.2rem] left-[6.8%] md:left-[6.4%]"></span>
-        <span className="fade-right absolute bg-white h-[1px] w-[21%] md:w-[35%] top-[6.2rem] right-[6.8%] md:right-[6.4%] "></span>
+        <span className="fade-left absolute  bg-[#FFBF00] h-[1px] left-[7%] w-[17%]  lg:w-[34%] top-[6.2rem] md:left-[5.8%]  md:w-[29%]"></span>
+        <span className="fade-right absolute bg-white h-[1px] right-[7%] w-[17%] lg:w-[34%] top-[6.2rem] md:right-[5.8%]  md:w-[29%] "></span>
 
         {/* <div className='z-10 absolute bottom-0 place-self-start h-[25rem] w-full ' style={headerStyles} /> */}
         <div className="zoom-in z-40 h-auto bg-background-gray w-[88%] rounded-lg shadow-2xl p-2 flex gap-2 flex-col md:flex-row">
-          <div className="hidden md:block bg-white p-2 md:min-h-full    md:w-1/5 w-full  rounded-md">
+          <div className="hidden lg:block bg-white p-2 md:min-h-full    md:w-1/5 w-full  rounded-md">
             <img
               loading="lazy"
               role="presentation"
@@ -59,7 +59,7 @@ const About = ({ sectionRef }) => {
               decoding="async"
               src={img}
               alt=""
-              className="h-full  w-full  rounded-md object-center object-cover  "
+              className=" h-full  w-full  rounded-md object-center object-cover  "
             />
           </div>
 
@@ -80,8 +80,8 @@ const About = ({ sectionRef }) => {
               <b>Contact Me</b>
             </h3>
 
-            <div className="flex relative   justify-between ">
-              <ul className="flex  h-full items-end  self-end gap-4 text-[#aaaaaa] text-[14.5px]">
+            <div className="flex md:flex-row flex-col relative gap-7  md:justify-between ">
+              <ul className="flex  h-full items-end  md:self-end gap-4 text-[#aaaaaa] text-[14.5px]">
                 <li>
                   <a
                     href="https://www.facebook.com/profile.php?id=100042825400985"
@@ -121,7 +121,7 @@ const About = ({ sectionRef }) => {
               </ul>
 
               
-              <a className="bg-[#FFBF00] font-bold w-fit py-1 px-4 text-sm rounded-md h-[2rem]" href={resume} target="_blank" rel="noreferrer">Check my CV</a>
+              <a className="bg-[#FFBF00]  font-bold w-fit py-1 px-4 text-sm rounded-md h-[2rem]" href={resume} target="_blank" rel="noreferrer">Check my CV</a>
               
             </div>
           </div>

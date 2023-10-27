@@ -19,7 +19,7 @@ const ScrollArrow = () => {
       <AnimatePresence>
         <motion.svg
           onClick={() => scrollToBottom()}
-          className="  cursor-pointer arrows w-[20px] h-[35px] absolute bottom-14 md:bottom-12 left-1/2  -translate-x-1/2 text-text-color"
+          className="scroll-bottom  cursor-pointer arrows w-[20px] h-[35px] absolute bottom-[7%] md:bottom-12 left-1/2  -translate-x-1/2 text-text-color"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 2, delay: 1 }}

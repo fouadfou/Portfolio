@@ -32,7 +32,7 @@ const Skills = () => {
         <div   className='right-to-left z-40 h-auto bg-background-gray  w-[88%] rounded-lg shadow-2xl p-2 ' >
             
 
-            <div className=' bg-white rounded-md border-[3px] border-opacity-70 border-[#FFBF00] w-full h-fit flex md:flex-row flex-col  flex-wrap px-20 py-[70px]  '>
+            <div className=' bg-white rounded-md border-[3px] border-opacity-70 border-[#FFBF00] w-full h-fit flex md:flex-row flex-col  flex-wrap px-[6%] py-[50px]  '>
 
                 <div className='zoom-in2 w-full'>
                 
@@ -41,7 +41,7 @@ const Skills = () => {
                             <h2 className='z-20 relative font-semibold text-[34px]'>My Skills</h2>
 
                     </div>
-                    <p className=' text-black mb-12 mt-5 w-full text-center '>Here is my skills to represent my Expertise</p>
+                    <p className=' text-black mb-8 mt-5 w-full text-center '>Here is my skills to represent my Expertise</p>
 
                 </div>
 

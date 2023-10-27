@@ -22,10 +22,70 @@
   src: url("./assets/fonts/SKULL BONES Bold22.otf");
 }
 
-
-body {
-    overflow: overlay;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
+@media screen and (max-width: 320px) {
+  .sub-container > h1  {
+        font-size:44px;
+  }
+
+  .sub-container sub {
+    font-size:54px;
+    left:2.7rem;
+    top:3.2rem;
+
+  }
+
+  .sub-container > p {
+    font-size : 12px;
+  }
+
+  .btn {
+    font-size:12px;
+    width:6rem;
+  }
+
+  .nav-list li {
+    font-size:12px;
+  }
+
+  .nav-list {
+    gap:1.5rem;
+  }
+  
+  .scroll-bottom {
+    bottom:7%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .shape div {
+        width:12rem;
+  }
+  .shape img {
+    width:8rem;
+    height:8rem;
+  }
+  .circles::before {
+    width:2rem;
+    height:2rem;
+  }
+
+  .circles::after{
+    width:2rem;
+    height:2rem;
+  }
+
+}
+
+
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -73,7 +133,7 @@ body {
 }
 
 .custom-link {
-  @apply no-underline text-text-color text-xl md:text-[14px] hover:text-[22px] hover:text-white md:hover:text-[16px] hover:duration-200 cursor-pointer
+  @apply flex items-center justify-center md:w-[3.5rem] w-[5rem]  no-underline text-text-color md:text-[14px]  cursor-pointer
   
 }
 
@@ -89,13 +149,6 @@ body {
 }
 
 
-.shape-after {
-  @appely after:absolute after:top-1/2 after:transform after:-translate-y-1/2 after:right-[-38%] after:h-full 
-  after:w-full after:rounded-full after:border-2 after:border-gray-200 after:bg-center after:bg-cover after:bg-no-repeat
-  after:bg-gradient-to-tl after:from-white after:via-white after:to-transparent after:opacity-60 animate-borderAnimation
-}
-
-
 * {
   padding: 0;
   margin: 0;
@@ -104,7 +157,7 @@ body {
 }
 
 
-.fou::before{
+.circles::before{
   content: "";
   position: absolute;
   top: 50%;
@@ -123,7 +176,7 @@ body {
 
 }
 
-.fou::after{
+.circles::after{
   content: "";
   position: absolute;
   top: 50%;

@@ -5,7 +5,7 @@ import Shape from "../components/Shape";
 
 const Home = ({ sectionRef }) => {
   return (
-    <header ref={sectionRef} className="overflow-x-hidden">
+    <header ref={sectionRef} >
       <HeaderContainer />
       <Shape />
     </header>

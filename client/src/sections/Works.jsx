@@ -92,7 +92,7 @@ const Works = ({ sectionRef }) => {
               ))}
             </motion.ul>
           ) : (
-            <h1 className="zoom-out text-white text-3xl">No {activeItem!=="All" && activeItem} {activeItem !=="Additional Expertise" && "Projects"} </h1>
+            <h1 className="zoom-out text-white text-center text-3xl">No {activeItem!=="All" && activeItem} {activeItem !=="Additional Expertise" && "Projects"} </h1>
           )}
 
           {projectsToShow < filtred.length ? (

@@ -76,7 +76,7 @@ const NavBar = ({ refs }) => {
       </div>
 
       <div
-        className={`list-container md:z-0  z-20  ${
+        className={` md:z-0  z-20  ${
           !Open
             ? "h-[3rem]  bg-opacity-10  "
             : "  rounded-br-3xl rounded-bl-3xl h-[80vh] bg-opacity-70 bg-black backdrop-blur-[100px] "
@@ -96,46 +96,46 @@ const NavBar = ({ refs }) => {
 
         <ul
           className={`nav-list transform md:transform-none -translate-x-1/2 -translate-y-1/2 absolute left-1/2 md:top-0 md:left-0 
-                md:h-fit md:relative flex-col md:flex-row flex items-center gap-9 md:gap-7 list-none opacity-0 
+                md:h-fit md:relative flex-col md:flex-row flex items-center gap-9 md:gap-7 list-none opacity-0 ease-linear
                 md:opacity-100 ${
                   Open
-                    ? "opacity-100 top-1/2 transition-opacity delay-200  duration-300"
+                    ? "opacity-100 top-1/2 transition-opacity   delay-200   duration-300"
                     : "-top-40"
                 }`}
         >
           <li
             onClick={() => scrollToTop()}
-            className=" text-center   md:w-[3.5rem] w-[5rem] custom-link"
+            className="custom-link"
           >
             Home
           </li>
           <li
             onClick={() => scrollToSection(about)}
-            className="text-center  md:w-[3.5rem] w-[5rem] custom-link"
+            className="custom-link"
           >
             About
           </li>
           <li
             onClick={() => scrollToSection(services)}
-            className="text-center  md:w-[3.5rem] w-[5rem] custom-link"
+            className="custom-link"
           >
             Services
           </li>
           <li
             onClick={() => scrollToSection(works)}
-            className="text-center md:w-[3.5rem] w-[5rem] custom-link"
+            className="custom-link"
           >
             Works
           </li>
           <li
             onClick={() => scrollToSection(contact)}
-            className="text-center  md:w-[3.5rem] w-[5rem] custom-link"
+            className="custom-link"
           >
             Contact
           </li>
         </ul>
-        <div className="md:relative absolute right-[0.8rem] md:hidden cursor-pointer flex text-[30px] h-[2rem] mt-1">
-          <ion-icon
+        <div className="absolute right-[3.5%]  md:hidden cursor-pointer flex  text-[30px] mt-1">
+          <ion-icon 
             onClick={(event) => {
               setOpen(!Open);
               Open === false
