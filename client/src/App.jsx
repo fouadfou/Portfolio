@@ -85,7 +85,7 @@ function App() {
 
   return (
     <>
-      {/* <NavBar refs={[home, about, services, works, contact]} /> */}
+      <NavBar refs={[home, about, services, works, contact]} />
 
       <refContext.Provider value={{works,contact}}>
           <Home sectionRef={home} />

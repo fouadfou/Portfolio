@@ -65,7 +65,7 @@ const NavBar = ({ refs }) => {
 
   return (
     <nav
-      className={`navbar z-50 flex flex-1 items-center sticky top-0 h-[3.5rem] text-text-color    ${
+      className={`navbar z-50 flex  items-center sticky top-0 h-[3.5rem] text-text-color    ${
         Scroll &&
         !Open &&
         "transition-all ease-linear duration-300   bg-opacity-80 bg-black backdrop-blur-[20px]"
