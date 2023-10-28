@@ -34,7 +34,7 @@ const Skills = () => {
 
             <div className=' bg-white rounded-md border-[3px] border-opacity-70 border-[#FFBF00] w-full h-fit flex md:flex-row flex-col  flex-wrap px-[6%] py-[50px]  '>
 
-                <div className='zoom-in2 w-full'>
+                <div className=' w-full'>
                 
                     <div className=' relative  h-fit w-full text-center  '>
                             <span className='z-10  absolute top-1/2  left-1/2 -translate-y-1/2 -translate-x-1/2 text-3xl font-extrabold font-Comic text-[#E8E8E8]'>Skills</span>

@@ -33,7 +33,7 @@ const Skill = ({ title, value }) => {
   }, [inView, controls, value]);
 
   return (
-    <div className="skill md:mb-4">
+    <div className=" md:mb-4">
       <div className=" flex justify-between items-center mb-2 ">
         <h3 className=" font-bold">{title}</h3>
         <span className="font-semibold text-sm">{currentValue} %</span>
