@@ -67,7 +67,7 @@ const Works = ({ sectionRef }) => {
           />
         )}
 
-        <div className="background-image pb-[4rem] w-full pt-[5rem] p-[5rem]  mt-8 flex flex-col items-center gap-14">
+        <div className="background-image  w-full pt-[5rem] p-[5rem]  mt-8 flex flex-col items-center gap-14">
           {filtred.length > 0 ? (
             <motion.ul className="relative h-fit  w-full  text-text-color grid grid-cols-projects  gap-x-16 gap-y-10 md:gap-y-8 ">
               {filtred.slice(0, projectsToShow).map((proj, index) => (
