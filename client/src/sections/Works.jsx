@@ -19,7 +19,7 @@ const Works = ({ sectionRef }) => {
 
   useEffect(() => {
     const sr = ScrollReveal({
-      origin: "center",
+      origin: "bottom",
       distance: "0px",
       duration: 500,
       reset: true,
