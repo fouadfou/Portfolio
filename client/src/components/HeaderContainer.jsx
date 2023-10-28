@@ -36,7 +36,7 @@ const HeaderContainer = () => {
   }, []);
 
   return (
-    <div className="container absolute  flex items-center justify-center md:justify-normal min-w-full  max-h-screen top-0" style={bg}>
+    <div className="container absolute  flex items-center justify-center md:justify-normal min-w-full  h-screen top-0" style={bg}>
       
         <div className="sub-container  z-40 w-[80%] md:w-[45%] min-w-[250px]  flex flex-col items-center md:items-baseline 
           gap-12 mx-[7%] mt-[1.5rem] mb-[3.5rem] md:mb-[1.2rem] ">
