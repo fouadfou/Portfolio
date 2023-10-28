@@ -90,7 +90,7 @@ function App() {
       <refContext.Provider value={{works,contact}}>
           <Home sectionRef={home} />
       </refContext.Provider>  */}
-      {/* <About sectionRef={about} background_image={background_image} />  */}
+      <About sectionRef={about} background_image={background_image} /> 
       <Services sectionRef={services} />
       {/* <Works sectionRef={works} /> */}
 {/*       <ScrollTop refs={[about, services, works, contact]} /> */}
