@@ -1,4 +1,4 @@
-import React ,{useEffect} from 'react'
+import {useEffect} from 'react'
 
 
 const FilterProjects = ({setActive ,activeItem ,projects ,filtred ,setFiltred , setProjectsToShow ,setShowMoreInfo}) => {

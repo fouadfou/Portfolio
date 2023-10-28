@@ -18,14 +18,6 @@ function App() {
   const works = useRef(null);
   const contact = useRef(null);
 
-
-
-
-  const background_image = {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 1) ,rgba(0, 0, 0, 0.850)) ,url('./src/assets/images/bg-2.jpg')`,
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-  };
   
   useEffect(() => {
     window.history.scrollRestoration = 'manual'

@@ -107,11 +107,6 @@ body{
 
 }
 
-.background-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.85)), url('./src/assets/images/bg-2.jpg');
-  background-position: center;
-  background-size: cover;
-} 
 
 .arrows path.a1 {
 	animation-delay:-1s;
