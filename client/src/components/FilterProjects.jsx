@@ -64,7 +64,7 @@ const FilterProjects = ({setActive ,activeItem ,projects ,filtred ,setFiltred , 
                 onClick={() => handleItemClick('Web')}>Web Development</li>
             <li  className={`select-none w-fit  whitespace-nowrap text-center text-sm font-bold cursor-pointer transform  duration-300  hover:scale-105 ${activeItem === 'Design' ? 'text-[#FFBF00]' : ''}`}
                 onClick={() => handleItemClick('Design')}>UI/UX Design</li>
-            <li  className={`select-none w-fit  whitespace-nowrap text-center text-sm font-bold cursor-pointer transform  duration-300  hover:scale-105 ${activeItem === 'Mobile' ? 'text-[#FFBF00]' : ''}`}
+            <li  className={`select-none w-fit  whitespace-nowrap text-center text-sm font-bold cursor-pointer transform  duration-300  hover:scale-105 ${activeItem === 'Additional Expertise' ? 'text-[#FFBF00]' : ''}`}
                 onClick={() => handleItemClick('Additional Expertise')}>Additional Expertise</li>
                 
             
