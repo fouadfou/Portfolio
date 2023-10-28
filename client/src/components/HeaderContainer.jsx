@@ -51,7 +51,7 @@ const HeaderContainer = () => {
           user experiences to deliver top-tier websites.
           </p>
 
-          <div className=" flex  gap-5  items-center  rounded-xl cursor-pointer">
+          <div className=" select-none flex  gap-5  items-center  rounded-xl cursor-pointer">
             <Button
               onClick={() => scrollToSection(works)}
               style={{

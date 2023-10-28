@@ -134,7 +134,7 @@ const NavBar = ({ refs }) => {
             Contact
           </li>
         </ul>
-        <div className="absolute right-[3.5%]  md:hidden cursor-pointer flex  text-[30px] mt-1">
+        <div className="select-none absolute right-[3.5%]  md:hidden cursor-pointer flex  text-[30px] mt-1">
           <ion-icon 
             onClick={(event) => {
               setOpen(!Open);
