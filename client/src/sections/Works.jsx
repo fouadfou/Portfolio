@@ -60,12 +60,12 @@ const Works = ({ sectionRef }) => {
           setFiltred={setFiltred}
           projects={Object.values(projects)}
         />
-        {showMoreInfo.show && (
+      {/*   {showMoreInfo.show && (
           <ProjectInformation
             setShowMoreInfo={setShowMoreInfo}
             project={projects[showMoreInfo.clickedProjectIndex + 1]}
           />
-        )}
+        )} */}
 
         <div className="background-image  w-full pt-[5rem] p-[5rem]  mt-8 flex flex-col items-center gap-14">
           {filtred.length > 0 ? (
