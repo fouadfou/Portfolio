@@ -92,7 +92,7 @@ function App() {
       </refContext.Provider>
       <About sectionRef={about} background_image={background_image} /> 
       <Services sectionRef={services} />
-      {/* <Works sectionRef={works} /> */}
+      <Works sectionRef={works} /> 
 {/*       <ScrollTop refs={[about, services, works, contact]} /> */}
       <Contact sectionRef={contact} />
 
