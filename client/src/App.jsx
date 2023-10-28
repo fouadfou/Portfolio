@@ -85,15 +85,15 @@ function App() {
 
   return (
     <>
-      {/* <NavBar refs={[home, about, services, works, contact]} />
+      <NavBar refs={[home, about, services, works, contact]} />
 
       <refContext.Provider value={{works,contact}}>
           <Home sectionRef={home} />
-      </refContext.Provider>  */}
+      </refContext.Provider> 
       <About sectionRef={about} background_image={background_image} /> 
       <Services sectionRef={services} />
       <Works sectionRef={works} />
-      {/* <ScrollTop refs={[about, services, works, contact]} /> */}
+      <ScrollTop refs={[about, services, works, contact]} />
       <Contact sectionRef={contact} />
 
       {/* <Contact sectionRef={contact} /> */}

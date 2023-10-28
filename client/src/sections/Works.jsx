@@ -19,8 +19,8 @@ const Works = ({ sectionRef }) => {
 
   useEffect(() => {
     const sr = ScrollReveal({
-      origin: "bottom",
-      distance: "-15px",
+      origin: "center",
+      distance: "0px",
       duration: 500,
       reset: true,
     });
@@ -49,8 +49,8 @@ const Works = ({ sectionRef }) => {
       ref={sectionRef}
     >
 
-      <h1 className="fade-left text-3xl font-bold">My Projects</h1>
-      <h4 className="fade-right mt-5 mb-[4.5rem] ">Browse my works</h4>
+      <h1 className=" text-3xl font-bold">My Projects</h1>
+      <h4 className=" mt-5 mb-[4.5rem] ">Browse my works</h4>
 
       <div className=" w-full  flex flex-col  justify-center">
         <FilterProjects

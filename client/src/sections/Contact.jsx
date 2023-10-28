@@ -46,7 +46,7 @@ const Contact = ({ sectionRef }) => {
       className="h-fit md:h-[calc(100vh-3.5rem)] px-[5%]  md:px-[8rem] flex-wrap  flex md:flex-row flex-col  items-center justify-center"
       ref={sectionRef}
     >
-      <div className="fade-left  flex-1 w-full  md:min-w-[410px]  flex flex-col  justify-center p-16 gap-2 ">
+      <div className=" flex-1 w-full  md:min-w-[410px]  flex flex-col  justify-center p-16 gap-2 ">
         <h1
           style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 0.3)" }}
           className="text-[40px] font-bold "
@@ -126,7 +126,7 @@ const Contact = ({ sectionRef }) => {
         </ul>
       </div>
 
-      <div className="fade-right h-fit flex-1 w-full md:min-w-[410px] flex flex-col   justify-center  pb-16 lg:pb-0 px-12 gap-6   rounded-xl ">
+      <div className="h-fit flex-1 w-full md:min-w-[410px] flex flex-col   justify-center  pb-16 lg:pb-0 px-12 gap-6   rounded-xl ">
         <h2 className="text-[22px] font-bold">Send me a message 🚀</h2>
 
         <form className="w-full flex flex-col gap-4" onSubmit={handleSubmit}>

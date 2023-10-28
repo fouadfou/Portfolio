@@ -18,13 +18,13 @@ const Services = ({ sectionRef }) => {
     >
       <div className="background-image absolute top-0 place-self-start h-[60%] w-full " />
 
-      <h1 className="zoom-out z-40 text-white text-center text-3xl  ">Services</h1>
+      <h1 className="z-40 text-white text-center text-3xl  ">Services</h1>
 
-      <span className="fade-left absolute  bg-[#FFBF00] h-[1px] left-[7%] w-[17%]  lg:w-[34%] top-[6.2rem] md:left-[5.8%]  md:w-[29%]"></span>
-      <span className="fade-right absolute bg-white h-[1px] right-[7%] w-[17%] lg:w-[34%] top-[6.2rem] md:right-[5.8%]  md:w-[29%] "></span>
+      <span className="absolute  bg-[#FFBF00] h-[1px] left-[7%] w-[17%]  lg:w-[34%] top-[6.2rem] md:left-[5.8%]  md:w-[29%]"></span>
+      <span className=" absolute bg-white h-[1px] right-[7%] w-[17%] lg:w-[34%] top-[6.2rem] md:right-[5.8%]  md:w-[29%] "></span>
 
       {/* <div className='z-10 absolute bottom-0 place-self-start h-[25rem] w-full ' style={headerStyles} /> */}
-      <div className="zoom-in  z-40 h-auto bg-background-gray w-[88%] rounded-lg shadow-2xl p-2  gap-2 ">
+      <div className=" z-40 h-auto bg-background-gray w-[88%] rounded-lg shadow-2xl p-2  gap-2 ">
         <ul className=" bg-white w-full rounded-md   h-fit flex flex-col  lg:flex-row">
           <li className="flex-1  p-10  text-center  ">
             <div className="flex flex-col items-center gap-5 mb-5 ">
