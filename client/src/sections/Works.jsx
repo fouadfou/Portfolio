@@ -45,7 +45,7 @@ const Works = ({ sectionRef }) => {
 
   return (
     <section
-      className="relative max-w-screen bg-[#F7F7F8] py-[5rem] flex flex-col items-center"
+      className="relative overflow-x-hidden w-full bg-[#F7F7F8] py-[5rem] flex flex-col items-center"
       ref={sectionRef}
     >
 
