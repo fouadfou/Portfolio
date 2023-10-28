@@ -39,7 +39,7 @@ const ProjectInformation = ({ setShowMoreInfo, project }) => {
     <div
       className={`MoreInfo flex flex-col    z-50 fixed top-0 bg-white  h-screen w-screen overflow-y-auto`}
     >
-      <div className="background-image relative px-[10%]  pb-9 pt-5  h-fit bg-[#F7F7F8]">
+      <div className="background-image w-full relative px-[10%]  pb-9 pt-5  h-fit bg-[#F7F7F8]">
         <Swiper
           style={{
             "--swiper-pagination-color": "#FFBF00",
