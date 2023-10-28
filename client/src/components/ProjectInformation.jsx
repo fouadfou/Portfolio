@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   EffectCoverflow,
   Navigation,
   Pagination,
-  Scrollbar,
 } from "swiper/modules";
 
 // Import Swiper styles

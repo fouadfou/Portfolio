@@ -5,7 +5,7 @@ import Shape from "../components/Shape";
 
 const Home = ({ sectionRef }) => {
   return (
-    <header ref={sectionRef} >
+    <header className="h-screen" ref={sectionRef} >
       <HeaderContainer />
       <Shape />
     </header>

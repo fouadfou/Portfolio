@@ -33,7 +33,7 @@ const HeaderContainer = () => {
   }, []);
 
   return (
-    <div className="container absolute  flex items-center justify-center md:justify-normal min-w-full  h-screen top-0" style={{backgroundImage:`url(${bg})`, backgroundPosition:"center" ,backgroundSize:"cover"}}>
+    <div className="container absolute  flex items-center justify-center md:justify-normal min-w-full  h-full top-0" style={{backgroundImage:`url(${bg})`, backgroundPosition:"center" ,backgroundSize:"cover"}}>
       
         <div className="sub-container  z-40 w-[80%] md:w-[45%] min-w-[250px]  flex flex-col items-center md:items-baseline 
           gap-14 mx-[7%] mt-[1.5rem] mb-[3.5rem] md:mb-[1.2rem] ">
