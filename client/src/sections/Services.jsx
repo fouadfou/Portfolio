@@ -4,7 +4,7 @@ import webdev from "../assets/images/coding.svg";
 import ui from "../assets/images/ui.svg";
 import support from "../assets/images/support.svg"
 
-const Services = ({ sectionRef }) => {
+const Services = ({ sectionRef , bg}) => {
   const headerStyles = {
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 1) ,rgba(0, 0, 0, 0.850)) ,url('./src/assets/images/bg-2.jpg')`,
     backgroundPosition: "center",
@@ -16,12 +16,12 @@ const Services = ({ sectionRef }) => {
       ref={sectionRef}
       className="  overflow-hidden relative flex flex-col  h-auto py-[5rem]  items-center justify-center  gap-[5rem]  "
     >
-      <div className="background-image absolute top-0 place-self-start h-[60%] w-full " />
+      <div style={{backgroundImage:`url(${bg})`, backgroundPosition:"center" ,backgroundSize:"cover"}} className="absolute top-0 place-self-start h-[60%] w-full " />
 
       <h1 className="z-40 text-white text-center text-3xl  ">Services</h1>
 
-      <span className="absolute  bg-[#FFBF00] h-[1px] left-[7%] w-[17%]  lg:w-[34%] top-[6.2rem] md:left-[5.8%]  md:w-[29%]"></span>
-      <span className=" absolute bg-white h-[1px] right-[7%] w-[17%] lg:w-[34%] top-[6.2rem] md:right-[5.8%]  md:w-[29%] "></span>
+      <span className="absolute  bg-[#FFBF00] h-[1px] left-[7.4%] w-[17%]  lg:w-[34%] top-[6.2rem] md:left-[6.2%]  md:w-[29%]"></span>
+      <span className=" absolute bg-white h-[1px] right-[7.4%] w-[17%] lg:w-[34%] top-[6.2rem] md:right-[6.2%]  md:w-[29%] "></span>
 
       {/* <div className='z-10 absolute bottom-0 place-self-start h-[25rem] w-full ' style={headerStyles} /> */}
       <div className=" z-40 h-auto bg-background-gray w-[88%] rounded-lg shadow-2xl p-2  gap-2 ">

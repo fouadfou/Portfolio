@@ -1,13 +1,15 @@
 import  { useState } from "react";
 import img from "../assets/images/shaking hands.png";
+import bg from "../assets/images/contact-bg.svg"
 import axios from "axios";
 
+
 const Contact = ({ sectionRef }) => {
-  const bg = {
+ /*  const bg = {
     backgroundImage: `url('./src/assets/images/contact-Bg.svg')`,
     backgroundPosition: "center",
     backgroundSize: "cover",
-  };
+  }; */
 
   const [formData, setFormData] = useState({
     name: "",
@@ -42,7 +44,7 @@ const Contact = ({ sectionRef }) => {
 
   return (
     <section
-      style={bg}
+      style={{backgroundImage:`url(${bg})`, backgroundPosition:"center" ,backgroundSize:"cover"}}
       className="h-fit md:h-[calc(100vh-3.5rem)] px-[5%]  md:px-[8rem] flex-wrap  flex md:flex-row flex-col  items-center justify-center"
       ref={sectionRef}
     >

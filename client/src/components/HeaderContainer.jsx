@@ -3,17 +3,18 @@ import Button from "./Button";
 import ScrollReveal from "scrollreveal";
 import ScrollBottom from "./ScrollBottom";
 import { refContext } from "../App";
+import bg from "../assets/images/background.png"
 
 
 const HeaderContainer = () => {
 
   const {works,contact} = useContext(refContext)
 
-  const bg = {
+ /*  const bg = {
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.766) ,rgba(0, 0, 0, 0.963)) ,url('./src/assets/images/bg.jpg')`,
     backgroundPosition: "center",
     backgroundSize: "cover",
-  };
+  }; */
 
   const scrollToSection = (section) => {
     window.scrollTo({
@@ -36,7 +37,7 @@ const HeaderContainer = () => {
   }, []);
 
   return (
-    <div className="container absolute  flex items-center justify-center md:justify-normal min-w-full  h-screen top-0" style={bg}>
+    <div className="container absolute  flex items-center justify-center md:justify-normal min-w-full  h-screen top-0" style={{backgroundImage:`url(${bg})`, backgroundPosition:"center" ,backgroundSize:"cover"}}>
       
         <div className="sub-container  z-40 w-[80%] md:w-[45%] min-w-[250px]  flex flex-col items-center md:items-baseline 
           gap-12 mx-[7%] mt-[1.5rem] mb-[3.5rem] md:mb-[1.2rem] ">

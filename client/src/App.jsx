@@ -1,5 +1,5 @@
 import  { useRef, useEffect, createContext } from "react";
-
+import bg from "./assets/images/background2.png"
 import NavBar from "./components/NavBar";
 import Home from "./sections/Home";
 import About from "./sections/About";
@@ -90,9 +90,9 @@ function App() {
       <refContext.Provider value={{works,contact}}>
           <Home sectionRef={home} />
       </refContext.Provider>
-      <About sectionRef={about} background_image={background_image} /> 
-      <Services sectionRef={services} />
-      <Works sectionRef={works} /> 
+      <About sectionRef={about} bg={bg} /> 
+      <Services sectionRef={services} bg={bg}/>
+      <Works sectionRef={works} bg={bg}/> 
       <ScrollTop refs={[about, services, works, contact]} /> 
       <Contact sectionRef={contact} />
 
