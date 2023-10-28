@@ -5,11 +5,7 @@ import axios from "axios";
 
 
 const Contact = ({ sectionRef }) => {
- /*  const bg = {
-    backgroundImage: `url('./src/assets/images/contact-Bg.svg')`,
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-  }; */
+
 
   const [formData, setFormData] = useState({
     name: "",
@@ -30,7 +26,6 @@ const Contact = ({ sectionRef }) => {
         "https://ounadi.onrender.com/send_mail",
         formData
       );
-      console.log(response.data.message);
       setFormData({
         name: "",
         email: "",
