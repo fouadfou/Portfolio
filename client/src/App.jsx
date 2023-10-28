@@ -6,7 +6,7 @@ import About from "./sections/About";
 import Works from "./sections/Works";
 import Contact from "./sections/Contact";
 import Services from "./sections/Services";
-/* import ScrollTop from "./components/ScrollTop"; */
+import ScrollTop from "./components/ScrollTop";
 
 export const refContext = createContext(null)
 
