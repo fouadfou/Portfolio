@@ -68,21 +68,34 @@
 @media screen and (max-width: 1024px) {
   
   .shape div {
-        width:12rem;
+        width:11rem;
   }
   .shape img {
-    width:8rem;
-    height:8rem;
-  }
-  .circles::before {
-    width:2rem;
-    height:2rem;
+    width:7.5rem;
+    height:7.5rem;
   }
 
-  .circles::after{
-    width:2rem;
-    height:2rem;
+  .circles::after {
+
+    right: -13.5%!important;
+    border-radius: 60px !important;
+    width: 14rem !important;
+    height: 14rem !important;
+
   }
+  
+  .circles::before {
+
+    right: -36.5%!important;
+    border-radius: 90px !important;
+    width: 19rem !important;
+    height: 19rem !important;
+  }
+
+  .shape {
+    right:14%
+  }
+
 
 }
 
@@ -145,6 +158,9 @@
 }
 
 
+.container {
+  height:100svh;
+}
 
 .circles::before{
   content: "";
@@ -161,6 +177,7 @@
   background-repeat: no-repeat;
   background-position: 0 0, 0 0, 100% 0, 0 100%;
   opacity: 0.6;
+  transition-duration: 250ms;
   animation: borderAnimation 20s infinite linear;
 
 }
@@ -180,6 +197,7 @@
   background-repeat: no-repeat;
   background-position: 0 0, 0 0, 100% 0, 0 100%;
   opacity: 0.6;
+  transition-duration: 250ms;
   animation: borderAnimation 20s infinite linear;
 }
 
