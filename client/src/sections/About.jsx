@@ -38,7 +38,7 @@ const About = ({ sectionRef, bg }) => {
     <section>
       <div
         ref={sectionRef}
-        className="  overflow-hidden  relative flex flex-col  h-auto py-[5rem]  mt-[calc(100vh-3.47rem)] items-center justify-center  gap-[5rem]  "
+        className="about-me overflow-hidden  relative flex flex-col  h-auto py-[5rem]  mt-[calc(100svh-3.47rem)] items-center justify-center  gap-[5rem]  "
       >
         <div style={{backgroundImage:`url(${bg})`, backgroundPosition:"center" ,backgroundSize:"cover"}} className="absolute top-0 place-self-start h-[60%] w-full rotate-180" />
 
